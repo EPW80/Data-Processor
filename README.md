@@ -4,7 +4,7 @@ This project aims to develop a data processing application that reads data from 
 
 ## Group Name(Group 4)
 - Erik Williams
-- CSUF Email - epwilliams@csu.fullerton.edu
+- epwilliams@csu.fullerton.edu
 - [GitHub](https://github.com/EPW80)
 
 Member2 Name
