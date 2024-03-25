@@ -1,31 +1,17 @@
 #include <iostream>
-#include <fstream> // Include for file handling
-
-// Function to calculate the sum of two integers
-int calculate_sum(int a, int b) {
-    // This function calculates the sum of two numbers
-    return a + b;
-}
-
-// Main function
+#include <fstream>
+int calculate_sum(int a, int b) {return a + b;}
 int main() {
-    std::ifstream inputFile("input.txt"); // Open input file
+    std::ifstream inputFile("input.txt"); 
     int num1, num2;
-
-    if (!inputFile) { // Check if the file was successfully opened
+    if (!inputFile) {
         std::cerr << "Unable to open file" << std::endl;
-        return 1; // Return an error code
+        return 1;
     }
-
-    // input.txt contains two integers separated by space
-    inputFile >> num1 >> num2;
-    inputFile.close(); // Close the file
-
-    // Calculate the sum
+    inputFile>>num1>>num2;
+    inputFile.close();
     int result = calculate_sum(num1, num2);
-
-    // Print the result
-    std::cout << "Sum: " << result << std::endl;
-
+    std::cout<<"Sum: "<<result<<std::endl;
     return 0;
 }
+
