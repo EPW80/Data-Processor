@@ -18,7 +18,7 @@ CSUF Email
 
 ## Objective
 
-- **Develop a C++ application** to:
+- **Develop a Python application** to:
   1. Read data from an input file.
   2. Remove excess spaces and comments from the code.
   3. Tokenize the cleaned code.
