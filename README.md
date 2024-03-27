@@ -2,7 +2,7 @@
 
 # Data Processing Project
 
-This project aims to develop a comprehensive data processing application designed specifically for analyzing Python code. The application reads data from an input file, meticulously processes the data to remove any excess spaces and comments, tokenizes the remaining code, and finally, presents the output in a clear, tabular format. This tool is invaluable for developers seeking to streamline their code or educators analyzing code structure and syntax.
+This project aims to develop a comprehensive data processing application designed specifically for analyzing Python code. The application reads data from an input file, meticulously processes the data to remove any excess spaces and comments, tokenizes the remaining code, and finally, presents the output in a clear, tabular format.
 
 ## Group Name: Group 4
 
@@ -15,12 +15,7 @@ This project aims to develop a comprehensive data processing application designe
 
 - **Member 2 Name**
 
-  - Email: CSUF Email
-  - GitHub Profile
-
 - **Member 3 Name**
-  - Email: CSUF Email
-  - GitHub Profile
 
 ## Objective
 
