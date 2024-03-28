@@ -48,3 +48,7 @@ Make sure you have a Python interpreter installed and an `input.txt` file in the
 - **Code Cleaning:** Removes all forms of comments and unnecessary whitespace, making the code easier to read and analyze.
 - **Tokenization:** Efficiently breaks down the code into manageable tokens, facilitating a deeper understanding of its structure.
 - **Professional Output:** Presents results in a professionally formatted tabular output, offering clarity at a glance.
+
+## Contributor
+
+Erik Williams
