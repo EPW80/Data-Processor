@@ -50,6 +50,12 @@ To use this application, follow these simple steps:
 - **Tokenization:** Efficiently breaks down the code into manageable tokens, facilitating a deeper understanding of its structure.
 - **Professional Output:** Presents results in a professionally formatted tabular output, offering clarity at a glance.
 
-## Contributor
+## Demo
+
+![](./data.gif)
+
+## Contributors
+
+Alex Le
 
 Erik Williams
