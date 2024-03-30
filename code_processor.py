@@ -29,18 +29,46 @@ def tokenize(code):
         "Delimiters": set(),
         "Literals": set(),
     }
+    # Define regex pattern for Python keywords: 'def', 'return', 'print'.
+    # \b denotes a word boundary to ensure these are matched as distinct words.
     keyword_pattern = r"\b(def|return|print)\b"
+
+    # Define regex pattern for operators: '=', '+'.
+    # These are placed within a character set ([]) to match any one of them.
     operator_pattern = r"[\=|\+]"
+
+    # Define regex pattern for delimiters: '(', ')', ':', ','.
+    # These are special characters in Python syntax used for grouping, function definitions, and lists/tuples.
     delimiter_pattern = r"[\(\)\:\,]"
+
+    # Define regex pattern for literals: specifically, numeric literals.
+    # \b\d+\b matches a whole number (integer) with word boundaries on either side to ensure the match is a discrete number.
     literal_pattern = r"\b\d+\b"
 
+    # Update the tokens dictionary with found keywords in the code.
+    # re.findall searches the code for matches to the keyword_pattern and adds them to the "Keywords" set in tokens.
     tokens["Keywords"].update(re.findall(keyword_pattern, code))
+
+    # Update the tokens dictionary with found operators in the code.
+    # Similar process, but for operators.
     tokens["Operators"].update(re.findall(operator_pattern, code))
+
+    # Update the tokens dictionary with found delimiters in the code.
+    # Similar process but for delimiters.
     tokens["Delimiters"].update(re.findall(delimiter_pattern, code))
+
+    # Update the tokens dictionary with found literals (currently, numeric literals) in the code.
     tokens["Literals"].update(re.findall(literal_pattern, code))
 
+    # Define regex pattern for identifiers: variables, function names, etc.
+    # Starts with a letter or underscore, followed by any number of word characters (letters, digits, underscores).
     identifiers_pattern = r"\b[a-zA-Z_]\w*\b"
+
+    # Find all matches for the identifiers pattern in the code and convert to a set to ensure uniqueness.
     all_identifiers = set(re.findall(identifiers_pattern, code))
+
+    # Update the tokens dictionary with found identifiers, excluding any that have been categorized as keywords or literals.
+    # This ensures that identifiers such as function names and variables are distinct from reserved keywords and numeric literals.
     tokens["Identifiers"] = all_identifiers - tokens["Keywords"] - tokens["Literals"]
 
     return tokens
