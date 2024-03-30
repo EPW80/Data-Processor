@@ -56,6 +56,5 @@ To use this application, follow these simple steps:
 
 ## Contributors
 
-Alex Le
-
 Erik Williams
+Alex Le
