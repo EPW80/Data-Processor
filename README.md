@@ -13,9 +13,10 @@ This project aims to develop a comprehensive data processing application designe
   - Email: epwilliams@csu.fullerton.edu
   - [GitHub Profile](https://github.com/EPW80)
 
-   **Alex Le**
+    **Alex Le**
+
   - Email: alexle7@csu.fullerton.edu
- 
+
 - **Member 3 Name**
 
 ## Objective
@@ -41,8 +42,7 @@ To use this application, follow these simple steps:
 3. **Run the Application:**
    python3 code_processor.py
 
-Copy code
-Make sure you have a Python interpreter installed and an `input.txt` file in the project directory containing the Python code you wish to analyze.
+- Make sure you have a Python interpreter installed and an `input.txt` file in the project directory containing the Python code you wish to analyze.\*
 
 ## Features
 
