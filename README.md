@@ -23,11 +23,11 @@ This project aims to develop a comprehensive data processing application designe
 
 The primary goal of this Python-based application is to:
 
-1. **Read data from an input file:** Seamlessly import Python code from a specified text file for analysis.
-2. **Remove excess spaces and comments:** Clean the imported code by removing unnecessary spaces and comments to ensure clarity and conciseness.
+1. **Read data from an input file:** Read the code from an input file.
+2. **Remove excess spaces and comments:** Clean up the code by removing unnecessary whitespace and comments.
 3. **Tokenize the cleaned code:** Analyze and categorize the code into tokens such as keywords, identifiers, operators, delimiters, and literals.
 4. **Output the cleaned code:** Display the processed code, free from comments and excess spacing.
-5. **Display the tokenized code in a tabular format:** Present the tokenized code elements in an easy-to-read table, enhancing understanding and readability.
+5. **Output the tokenized code:** Display the processed code in a tabular format, making it easier to read and understand.
 
 ## Installation & Usage
 
@@ -46,9 +46,9 @@ To use this application, follow these simple steps:
 
 ## Features
 
-- **Code Cleaning:** Removes all forms of comments and unnecessary whitespace, making the code easier to read and analyze.
-- **Tokenization:** Efficiently breaks down the code into manageable tokens, facilitating a deeper understanding of its structure.
-- **Professional Output:** Presents results in a professionally formatted tabular output, offering clarity at a glance.
+- **Code Cleaning:** Removes excess space and comments from the code.
+- **Tokenization:** Categorizes the code into tokens, such as keywords, identifiers, operators, delimiters, and literals.
+- **Tabularized Output:** Presents results in a formatted tabular output, making it easier to read and understand.
 
 ## Demo
 
