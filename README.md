@@ -52,9 +52,9 @@ To use this application, follow these simple steps:
 
 ## Demo
 
-![](./data.gif)
+[Group 4 Presentation](https://www.loom.com/share/551479b53f874d1cb01d8e35381f7138?sid=785f9094-0945-48e0-a48b-a1b49f720efc)
 
-[Loom Demo](https://www.loom.com/share/551479b53f874d1cb01d8e35381f7138?sid=785f9094-0945-48e0-a48b-a1b49f720efc)
+![](./data.gif)
 
 ## Contributors
 
