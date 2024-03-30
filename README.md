@@ -54,7 +54,7 @@ To use this application, follow these simple steps:
 
 ![](./data.gif)
 
-[Loom Demo](https://www.loom.com/share/d8d8432d12ce40a48466178c10948888?sid=18240073-b01b-46ab-b429-28d0cd376b5a)
+[Loom Demo](https://www.loom.com/share/551479b53f874d1cb01d8e35381f7138?sid=785f9094-0945-48e0-a48b-a1b49f720efc)
 
 ## Contributors
 
