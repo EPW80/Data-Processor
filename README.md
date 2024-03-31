@@ -15,11 +15,7 @@ This project aims to develop a comprehensive data processing application designe
 
     **Alex Le**
 
-  - Email: alexle7@csu.fullerton.edu
-
-- **Jaime Castillo**
-
-  - Email: jjcastillojr21@csu.fullerton.edu  
+  - Email: alexle7@csu.fullerton.edu 
 
 ## Objective
 
@@ -62,4 +58,3 @@ To use this application, follow these simple steps:
 
 - Erik Williams
 - Alex Le
-- Jaime Castillo
