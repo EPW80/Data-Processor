@@ -13,11 +13,9 @@ This project aims to develop a comprehensive data processing application designe
   - Email: epwilliams@csu.fullerton.edu
   - [GitHub Profile](https://github.com/EPW80)
 
-    **Alex Le**
+- **Alex Le**
 
   - Email: alexle7@csu.fullerton.edu
-
-- **Member 3 Name**
 
 ## Objective
 
