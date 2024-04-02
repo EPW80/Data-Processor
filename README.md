@@ -37,6 +37,6 @@ To use this application, follow these simple steps:
 
 ![](./data.gif)
 
-## Contributors
+## Code Contributor
 
 - Erik Williams
