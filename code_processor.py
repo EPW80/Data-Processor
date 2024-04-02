@@ -1,8 +1,4 @@
 #! python3
-# CPSC 323
-# 2024-03-28
-# epwiliams@csu.fullerton.edu
-# alexle7@csu.fullerton.edu
 
 
 import re
@@ -127,5 +123,3 @@ if __name__ == "__main__":
     print("Code analysis completed. BUh-Bye!")
 
 # End of code
-# Erik Williams 
-# Alex Le
