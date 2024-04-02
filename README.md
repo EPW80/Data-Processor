@@ -1,23 +1,8 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/WlsObx5l)
-
 # Data Processing Project
 
 This project aims to develop a comprehensive data processing application designed specifically for analyzing Python code. The application reads data from an input file, meticulously processes the data to remove any excess spaces and comments, tokenizes the remaining code, and finally, presents the output in a clear, tabular format.
 
-## Group Name: Group 4
-
-### Team Members
-
-- **Erik Williams**
-
-  - Email: epwilliams@csu.fullerton.edu
-  - [GitHub Profile](https://github.com/EPW80)
-
-- **Alex Le**
-
-  - Email: alexle7@csu.fullerton.edu
-
-## Objective
+## Overview
 
 The primary goal of this Python-based application is to:
 
@@ -32,10 +17,8 @@ The primary goal of this Python-based application is to:
 To use this application, follow these simple steps:
 
 1. **Clone the Repository:**
-   git clone git@github.com:CSUF-CPSC-323-Spring24/data-processing-project-group-4.git
 
 2. **Navigate to the Project Directory:**
-   cd Data-Processing-Project
 
 3. **Run the Application:**
    python3 code_processor.py
@@ -50,11 +33,10 @@ To use this application, follow these simple steps:
 
 ## Demo
 
-[Group 4 Presentation](https://www.loom.com/share/551479b53f874d1cb01d8e35381f7138?sid=785f9094-0945-48e0-a48b-a1b49f720efc)
+[Demonstration Video](https://www.loom.com/share/551479b53f874d1cb01d8e35381f7138?sid=785f9094-0945-48e0-a48b-a1b49f720efc)
 
 ![](./data.gif)
 
 ## Contributors
 
 - Erik Williams
-- Alex Le
