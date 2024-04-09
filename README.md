@@ -1,4 +1,4 @@
-# Data Processing Project
+# Tokenizer
 
 This project aims to develop a comprehensive data processing application designed specifically for analyzing Python code. The application reads data from an input file, meticulously processes the data to remove any excess spaces and comments, tokenizes the remaining code, and finally, presents the output in a clear, tabular format.
 
